@@ -31,7 +31,7 @@ require_once "conn.php";
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-
+<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="node_modules/@fortawesome/fontawesome-freejs/all.min.js"></script>
 <script src="node_modules/@fortawesome/fontawesome-freejs/fontawesome.min.js"></script>
 </html>

@@ -9,7 +9,7 @@
 		<?php while ($category = mysqli_fetch_assoc($result)): ?>
 			<li class="list-group-item fs-6 bg-dark" >
 				<a href="#" style="position: relative;">
-					<span class="far fa-comments fa-2x fa-spin"></span><span><?= $category['name'] ?></span>
+					<div class="far fa-comments fa-2x "></div><div><?= $category['name'] ?></div>
 				</a>
 				</li>
 		<?php endwhile ?>

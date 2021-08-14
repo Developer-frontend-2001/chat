@@ -6,6 +6,6 @@
 	<div class="mt-1 p-0 d-flex align-items-center">
 		<button class=" header-icons  p-0" style=" border: none;"><i class="far fa-square"></i></button>
 		<button class=" header-icons  p-0" style=" border: none;"><i class="far fa-square"></i></button>
-		<button class=" header-icons  p-0" style=" border: none;"><i class="fas fa-times"></i></button>
+		<button class=" header-icons  p-0 times" style=" border: none;">&times;</i></button>
 	</div>
 </div>
