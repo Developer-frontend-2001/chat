@@ -18,6 +18,7 @@ require_once "conn.php";
 	<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;422&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="node_modules/normalize.css">
+	<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
 	<div class="container-fluid d-flex justify-content-center align-items-center">
@@ -34,4 +35,23 @@ require_once "conn.php";
 <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="node_modules/@fortawesome/fontawesome-freejs/all.min.js"></script>
 <script src="node_modules/@fortawesome/fontawesome-freejs/fontawesome.min.js"></script>
+
+<script>
+	$(".header-icons").click(()=>{
+		$.ajax({
+			method: "GET",
+			url: "ajax-avg-sidebar.php",
+			data: { product_id: id },
+			success: function(data) {
+				$('#shopping_cart').html(data);
+				console.log(data);
+			},
+			error: function (jqXHR, textStatus, errorThrown) {
+				console.log(jqXHR);
+				console.log(textStatus);
+				console.log(errorThrown);
+			}
+		})
+	})
+</script>
 </html>

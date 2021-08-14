@@ -5,10 +5,11 @@
 	position: relative;
 	max-width: 250px;
 	& form{
+		width: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		& input{

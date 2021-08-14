@@ -1,9 +1,9 @@
 <div class="avg-sidebar">
-	<form action="" method="POST" class="form-inline mx-2 my-2">
-		<input type="search" class="form-control bg-dark" placeholder="Search">
-		<i class="fas fa-lock-open"></i>
+	<form action="" method="POST" class="form-inline bg-dark">
+		<input type="search" class="form-control " placeholder="Search">
+		<i class="fas fa-lock-open text-light" id=""></i>
 	</form>
-	
+
 	<div class="basic-avg-sidebar">
 		
 	</div>
