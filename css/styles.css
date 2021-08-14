@@ -85,6 +85,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
   position: absolute;
   top: 0;
   left: 0;
@@ -109,9 +111,27 @@
   overflow-y: auto;
 }
 .avg-sidebar .basic-avg-sidebar .div-menu-item {
+  margin: 0 1px;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.avg-sidebar .basic-avg-sidebar .div-menu-item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.avg-sidebar .basic-avg-sidebar .div-menu-item-wrapper-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 /*# sourceMappingURL=styles.css.map */
