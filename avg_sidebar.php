@@ -5,8 +5,17 @@
 	</form>
 
 	<div class="basic-avg-sidebar">
-		<table class="table table-hover table-striped table-valign-middle">
-			
-		</table>
+		<div class="div-menu" >
+			<div class="div-menu-item">
+				<div>
+					<img src="telegram-logo-1.png" class="rounded-circle img-fluid" alt="Users Images">
+				</div>
+				<div>
+					<span>Anvar</span>
+					<span>Comments</span>
+				</div>
+				<div>22:04</div>
+			</div>
+		</div>
 	</div>
 </div>

@@ -22,4 +22,24 @@
 			float: right;
 		}
 	}
+	& .basic-avg-sidebar{
+		width: 100%;
+		height: 95%;
+		background-color: $bg-color;
+		left: 0;
+		bottom: 0;
+		padding: 0;
+		position: absolute;
+		overflow-y: auto;
+		& .div-menu{
+			// z-index: 2;
+			// position: absolute;
+			&-item{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+		}
+
+	}
 }
