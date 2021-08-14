@@ -5,6 +5,8 @@
 	</form>
 
 	<div class="basic-avg-sidebar">
-		
+		<table class="table table-hover table-striped table-valign-middle">
+			
+		</table>
 	</div>
 </div>

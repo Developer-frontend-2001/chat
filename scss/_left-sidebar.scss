@@ -1,4 +1,6 @@
 $color: grey;
+$color-hover: green;
+$bg-color: #777 !important;
 .left-menu{
 	width: 80px;
 	height: 100%;
@@ -7,6 +9,13 @@ $color: grey;
 	position: relative;
 	& ul li{
 		width: 80px;
+		transition: 0.5s all linear;
+		&:hover{
+			background-color: $bg-color;
+			& a{
+				color: $color-hover;
+			}
+		}
 		& a{
 			display: flex;
 			flex-direction: column;
@@ -14,9 +23,10 @@ $color: grey;
 			justify-content: center;
 			align-items: center;
 			text-decoration: none!important;
-			& #left-sidebar{
-				color: $color;
-			}
+			transition: 0.5s all linear;
+			color: $color;
+			font-weight: 600;
+			
 		}
 	}
 }

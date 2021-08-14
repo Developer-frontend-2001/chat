@@ -37,13 +37,14 @@ require_once "conn.php";
 <script src="node_modules/@fortawesome/fontawesome-freejs/fontawesome.min.js"></script>
 
 <script>
-	$(".header-icons").click(()=>{
+	$("#left-sidebar").click(()=>{
+		let id = $(this).data("id");
 		$.ajax({
 			method: "GET",
 			url: "ajax-avg-sidebar.php",
-			data: { product_id: id },
+			data: { id: id },
 			success: function(data) {
-				$('#shopping_cart').html(data);
+				$('#').html(data);
 				console.log(data);
 			},
 			error: function (jqXHR, textStatus, errorThrown) {
