@@ -1,4 +1,4 @@
-<div class="wrapper-header">
+<div class="wrapper-header col-md-6 col-sm-12">
 	<div class="d-flex align-items-center" style="">
 		<img src="telegram-logo-1.png" class="rounded-circle img-fluid m-0 p-0" width="20px" alt="Telegram">
 		<p class="text-light m-0 p-0">Telegram</p>
