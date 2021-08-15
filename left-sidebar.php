@@ -12,9 +12,9 @@
 		</li>
 		<?php while ($category = mysqli_fetch_assoc($result)): ?>
 			<li class="list-group-item fs-6 bg-dark m-0 p-0 mb-2" >
-				<a href="#" id ="left-sidebar" style="position: relative;" data-id=<?=$category['id']?>>
-					<div class="far fa-comments fa-2x " id="left-sidebar"></div>
-					<div id="left-sidebar"><?= $category['name'] ?></div>
+				<a href="#"  class="left-sidebar" style="position: relative;" data-id=<?=$category['id']?>>
+					<div class="far fa-comments fa-2x left-sidebar" ></div>
+					<div class="left-sidebar"><?= $category['name'] ?></div>
 				</a>
 				</li>
 		<?php endwhile ?>

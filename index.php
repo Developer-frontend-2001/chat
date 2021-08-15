@@ -35,13 +35,13 @@ require_once "conn.php";
 <!-- JavaScript Bundle with Popper -->
 <script src="node_modules/bootstrap/distjs/bootstrap.min.js" ></script>
 <script src="node_modules/bootstrap/distjs/bootstrap.bundle.min.js" ></script>
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="node_modules/@fortawesome/fontawesome-freejs/all.min.js"></script>
 <script src="node_modules/@fortawesome/fontawesome-freejs/fontawesome.min.js"></script>
 
 <script>
-	$("#left-sidebar").click(()=>{
+	$(".left-sidebar").click(function(){
 		let id = $(this).data("id");
 		$.ajax({
 			method: "GET",
@@ -56,7 +56,11 @@ require_once "conn.php";
 				console.log(textStatus);
 				console.log(errorThrown);
 			}
-		})
+		});
+	});
+	$(".left-sidebar").click(()=>{
+		$(this).addClass("active");
+		console.log("a");	
 	})
 </script>
 </html>

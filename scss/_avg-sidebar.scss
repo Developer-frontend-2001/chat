@@ -5,9 +5,10 @@
 	flex-direction: $fr;
 	flex-wrap: nowrap; 
 }
+$bg-color: #555;
 .avg-sidebar{
 	width: 250px;
-	background-color: #555;
+	background-color: $bg-color;
 	height: 100%;
 	position: relative;
 	max-width: 250px;
@@ -22,6 +23,7 @@
 			height: 34px;
 			outline: none;
 			float: left;
+			background-color: $bg-color;
 		}
 		& i{
 			float: right;

@@ -1,4 +1,4 @@
-$color: grey;
+$color: grey!important;
 $color-hover: green;
 $bg-color: #777 !important;
 .left-menu{
@@ -30,4 +30,7 @@ $bg-color: #777 !important;
 		}
 	}
 	
+}
+.active{
+	background-color: $color;
 }

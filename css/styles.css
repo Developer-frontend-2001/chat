@@ -69,8 +69,12 @@
   align-items: center;
   text-decoration: none !important;
   transition: 0.5s all linear;
-  color: grey;
+  color: grey !important;
   font-weight: 600;
+}
+
+.active {
+  background-color: grey !important;
 }
 
 .avg-sidebar {
@@ -96,6 +100,7 @@
   height: 34px;
   outline: none;
   float: left;
+  background-color: #555;
 }
 .avg-sidebar form i {
   float: right;
@@ -103,7 +108,7 @@
 .avg-sidebar .basic-avg-sidebar {
   width: 100%;
   height: 95%;
-  background-color: #777 !important;
+  background-color: #555;
   left: 0;
   bottom: 0;
   padding: 0;
