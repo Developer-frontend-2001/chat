@@ -6,7 +6,7 @@
 	?>
 	<ul class="list-group d-flex align-items-center align-content-center bg-dark">
 		<li class="list-group-item fs-6 bg-dark">
-			<a href="#" style="position: relative;">
+			<a class="active" href="#" style="position: relative;">
 				<div class="fas fa-bars fa-2x" id="left-sidebar"></div>
 			</a>
 		</li>

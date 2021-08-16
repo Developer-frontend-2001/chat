@@ -29,6 +29,7 @@ require_once "conn.php";
 			<?php include "header.php" ?>
 			<!-- Header finished -->
 			<?php include "wrapper-content.php" ?>
+			
 		</div>
 	</div>
 </body>
@@ -48,7 +49,7 @@ require_once "conn.php";
 			url: "ajax-avg-sidebar.php",
 			data: { id: id },
 			success: function(data) {
-				$('#table-menu').append(data);
+				$('.div-menu').append(data);
 				console.log(data);
 			},
 			error: function (jqXHR, textStatus, errorThrown) {
@@ -57,10 +58,11 @@ require_once "conn.php";
 				console.log(errorThrown);
 			}
 		});
+		$(this).attr("disabled");
 	});
-	$(".left-sidebar").click(()=>{
-		$(this).addClass("active");
-		console.log("a");	
-	})
+	// $(".left-sidebar").click(()=>{
+	// 	$(".left-sidebar").addClass("active");
+	// 	console.log("a");	
+	// })
 </script>
 </html>
